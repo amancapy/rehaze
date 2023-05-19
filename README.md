@@ -10,6 +10,7 @@ The [NYU-DepthV2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.ht
 I started this project originally as an implementation of the Diffusion model, and you will find almost all of the diffusion code fully intact, commented out.
 
 | ![image](https://github.com/amancapy/rehaze/assets/111729660/4721a214-4c81-450d-b024-1bf64844f4df) |
-|:-Hazy input -> Ground Truth -> Prediction-:|
+|:--:|
+| Hazy input -> Ground Truth -> Prediction |
 | The first  $`\hat{x_{0}}`$ prediction made after only 2000 small batches of training.
 Note that 1) the input was chosen intentionally to be extremely hazy. 2) this was only a 6M-parameter model trained on my personal laptop and of course a larger model will require very few iterations to make "perfect" final results.|
