@@ -1,5 +1,5 @@
 # rehaze
-diffusion-like iterative image dehazing with deep learning
+Diffusion-like Iterative Image Dehazing with Deep Learning
 
 This project was inspired by [Cold Diffusion](https://arxiv.org/abs/2208.09392), although this isn't a generative model.
 
