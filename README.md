@@ -3,7 +3,7 @@ diffusion-like iterative image dehazing with deep learning
 
 This project was inspired by [Cold Diffusion](https://arxiv.org/abs/2208.09392), although this isn't a generative model.
 
-Using the distance-based scattering model $x_{t} = x_{0} e^{-\beta d} + \alpha (1 - e^{-\beta d})$ you can very closely approximate $x_{\frac{t}{2}}$ given $x_{t}$ and $\hat{x_{0}}$<sup>\*<\sup>, which means that you can iteratively re-haze and dehaze your hazy image until satisfied, using $x_{t}$ at every iterative step staying loyal to the input. You get the best of both worlds -- the model's learned intuition of the color distributions over clear scenes, and the true physical structure from the $x_{0}$ input. 
+Using the distance-based scattering model $x_{t} = x_{0} e^{-\beta d} + \alpha (1 - e^{-\beta d})$ you can very closely approximate $x_{\frac{t}{2}}$ given $x_{t}$ and $\hat{x_{0}}$<sup>\*</sup>, which means that you can iteratively re-haze and dehaze your hazy image until satisfied, using $x_{t}$ at every iterative step staying loyal to the input. You get the best of both worlds -- the model's learned intuition of the color distributions over clear scenes, and the true physical structure from the $x_{0}$ input. 
 
 The [NYU-DepthV2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) was invaluable for the project, with high-quality depth maps. I struggled to find large depth-pair datasets for *outdoor* scenes so I had to make do with indoor scenes.
 
