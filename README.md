@@ -9,4 +9,4 @@ I started this project originally as an implementation of the Diffusion model, a
 
 | ![image](https://github.com/amancapy/rehaze/assets/111729660/4721a214-4c81-450d-b024-1bf64844f4df) |
 |:--:|
-| *A single-shot prediction made after only 2000 small batches of training. Note that this is not an iteratively taken sample, but the first $\hat{x_{0}}$ prediction. Of course iterative sampling will give an *even* better result.* |
+| A single-shot prediction made after only 2000 small batches of training. Note that this is not an iteratively taken sample, but the first $`\hat{x_{0}}`$ prediction. Of course iterative sampling will give an *even* better result. |
