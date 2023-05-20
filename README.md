@@ -12,7 +12,7 @@ I started this project originally as an implementation of the Diffusion model, a
 | ![image](https://github.com/amancapy/rehaze/assets/111729660/4721a214-4c81-450d-b024-1bf64844f4df) |
 |:--:|
 | Hazy input -> Ground Truth -> Prediction |
-| The first  $`\hat{x_{0}}`$ prediction made after only 2000 small batches of training. Notice the faint purples on the wall recovered even from the extreme haze.
+| The first  $`\hat{x_{0}}`$ prediction made after only 2000 small batches of training. Notice the faint purples on the wall recovered even from the extreme haze in just one iteration.
 Note that 1) the input was chosen intentionally to be extremely hazy to demonstrate the model at its 'best'. 2) this was only a 6M-parameter model trained on my personal laptop and of course a larger model will require very few iterations to make "perfect" final results.|
 
 \*<sub>I will eventually get around to LaTeXing my formulation</sub>
